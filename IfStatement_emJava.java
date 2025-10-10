@@ -8,7 +8,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         String name;
-        String sim;
         int age;
         boolean isStudent;
 
