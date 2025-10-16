@@ -43,5 +43,47 @@ public class main {
         // para limitar as casas dos decimais você pode colocar ".X" (X é o número)
 
         /* ------------------------------------------------------------------------------------------------------------- */
+
+        // [width] determina o posicionamento dos dígitos
+
+        /*
+        0 = preenchimento com zeros, 0 é o minimo e 4 é o limite:
+
+        "%04d" :
+
+        0001
+        0023
+        0456
+        7890
+        número = alinhamento à direita com preenchimento, nesse caso ele move os numeros
+        para a direita sem precisar substitui-los por zero:
+
+        "%4d":
+
+        1
+        23
+        456
+        7890
+        número negativo = alinhamento à esquerda com preenchimento:
+
+        "%-4d":
+
+           1
+          23
+         456
+        7890
+        */
+
+        int id1 = 1;
+        int id2 = 23;
+        int id3 = 456;
+        int id4 = 7890;
+
+        System.out.printf("%-4d\n", id1);
+        System.out.printf("%-4d\n", id2);
+        System.out.printf("%-4d\n", id3);
+        System.out.printf("%-4d\n", id4);
+
+        /* ------------------------------------------------------------------------------------------------------------- */
     }
 }
