@@ -3,6 +3,10 @@ public class main {
         // printf() = é um metodo usado para formatar mensagens(outputs)
         // %[flags][width][.precision][specifier-character]
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+        
+        /* [specifier-character] specificar caracteres dentro das mensagens, ao em vez de usar " + (dado) + ", você pode usar dessa forma: ("FULANO DE TOWN É %s", adjetivo) */
+
         String nome = "BobEsponja";
         char primeiraLetra = 'B';
         int idade = 30;
@@ -19,5 +23,25 @@ public class main {
         System.out.printf("%s tem %d anos de idade, tem %f , seu nome começa com %c e é empregado", nome, idade, altura, primeiraLetra);
         // colocar as variaveis na ordens das palavras
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
+        /* [.precision] usados para especificar números com vírgulas e dentre outros. */
+
+        double preco1 = 9.99;
+        double preco2 = 100.15;
+        double preco3 = -54.01;
+
+        // = mostrar um sinal de mais,
+        // , = separador de grupos por meio de vírgula (100000 > 100,000),
+        // ( = números negativos serão fechados em (),
+        // espaço = mostra um menus se esta negativo, espaço se esta positivo.
+
+        System.out.printf("% .2f\n", preco1);
+        System.out.printf("% .2f\n", preco2);
+        System.out.printf("% .2f\n", preco3);
+
+        // para limitar as casas dos decimais você pode colocar ".X" (X é o número)
+
+        /* ------------------------------------------------------------------------------------------------------------- */
     }
 }
