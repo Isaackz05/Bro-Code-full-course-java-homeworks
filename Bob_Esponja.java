@@ -3,7 +3,7 @@ public class main {
         // printf() = é um metodo usado para formatar mensagens(outputs)
         // %[flags][width][.precision][specifier-character]
 
-        /* ---------------------------------------------------- */
+        /* ------------------------------------------------------------------------------------------------------------- */
         
         /* [specifier-character] specificar caracteres dentro das mensagens, ao em vez de usar " + (dado) + ", você pode usar dessa forma: ("FULANO DE TOWN É %s", adjetivo) */
 
