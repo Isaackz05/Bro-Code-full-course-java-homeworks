@@ -5,6 +5,8 @@ public class main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         String adjetivo1;
         String sujeito1;
         String adjetivo2;
@@ -28,6 +30,8 @@ public class main {
         System.out.println("Eu estava " + adjetivo3 + "!");
 
         scanner.close();
+
+        /* ------------------------------------------------------------------------------------------------------------- */
 
     }
 }
