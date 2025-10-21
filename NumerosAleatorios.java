@@ -13,8 +13,8 @@ public class Main {
         Isso é uma declaração e instanciação de objeto
         */
 
-        /* --------------------------------------------------------------
-        NÚMERO ALEATÓRIO COM DADO PRIMITIVO INT (NÚMEROS INTEIROS) :  */
+        /* ------------------------------------------------------------------------------------------------------------- */
+        // NÚMERO ALEATÓRIO COM DADO PRIMITIVO INT (NÚMEROS INTEIROS) :
         
         int numero1;  // variavel
         numero1 = random.nextInt(1, 101);
@@ -26,8 +26,8 @@ public class Main {
                                             o outro é exclusivo (bound)
                                             */
 
-        /* --------------------------------------------------------------
-        CARA OU COROA COM DADO PRIMITIVO BOOLEANO:  */
+        /* ------------------------------------------------------------------------------------------------------------- */
+        // CARA OU COROA COM DADO PRIMITIVO BOOLEANO:
       
         boolean Coroa;
         Coroa = random.nextBoolean();
@@ -38,8 +38,8 @@ public class Main {
             System.out.println("á moeda mostra Cara!");
         }
 
-        /* --------------------------------------------------------------
-        NÚMERO ALEATÓRIO COM DADO PRIMITIVO DOUBLE (NÚMEROS DECIMAIS) :  */
+        /* ------------------------------------------------------------------------------------------------------------- */
+        // NÚMERO ALEATÓRIO COM DADO PRIMITIVO DOUBLE (NÚMEROS DECIMAIS) :
         
         double numero;
         numero = random.nextDouble();
