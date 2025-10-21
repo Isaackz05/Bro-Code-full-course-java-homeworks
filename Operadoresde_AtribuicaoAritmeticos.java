@@ -4,6 +4,8 @@ public class main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         // Operadores de Atribuição Aritméticos
 
         int x = 10;
@@ -41,6 +43,8 @@ public class main {
         retornar porções decimais, então tome cuidado.
         */
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         // Operadores de Incremento e Decremento:
         
 
@@ -72,6 +76,8 @@ public class main {
         double result = 3 + 4 * (7 - 5) / 2.0;
 
         System.out.println(result);
+
+        /* ------------------------------------------------------------------------------------------------------------- */
 
     }
 }
