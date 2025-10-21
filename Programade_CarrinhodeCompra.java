@@ -5,6 +5,8 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         String item;
         String moeda = "R$";
         double preco;
@@ -26,5 +28,7 @@ public class Main {
         System.out.println("Seu total é " + moeda + total);
 
         scanner.close();
+
+        /* ------------------------------------------------------------------------------------------------------------- */
     }
 }
