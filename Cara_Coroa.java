@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
         // declarações e instanciação a objetos
@@ -27,5 +29,8 @@ public class Main {
         // mensagem que irá aparecer
 
         scanner.close();
+
+        /* ------------------------------------------------------------------------------------------------------------- */
+        
     }
 }
