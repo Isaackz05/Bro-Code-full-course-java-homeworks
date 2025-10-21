@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args){
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         boolean Estudante = true;
         boolean Formando = true;
         double preco = 9.99;
@@ -25,10 +27,10 @@ public class Main {
         }
 
         System.out.printf("O preço de um ingresso é: R$%.2f", preco);
+
+        // Basicamente ta mostrando neste código que da para usar if's e else's dentro de outros if's e else's
+
+        /* ------------------------------------------------------------------------------------------------------------- */
+        
     }
 }
-
-
-/*
-Basicamente ta mostrando neste código que da para usar if's e else's dentro de outros if's e else's
-*/
