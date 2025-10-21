@@ -30,7 +30,7 @@ public class Main {
         }
         */
 
-        // COMMON MISTAKES
+        // ERROS COMUNS
 
         /*
         System.out.print("Enter your age: ");
@@ -45,6 +45,8 @@ public class Main {
 
         scanner.close();
         */
+
+        /* ------------------------------------------------------------------------------------------------------------- */
 
         double width = 0;
         double height = 0;
