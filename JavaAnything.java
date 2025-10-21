@@ -1,10 +1,11 @@
 import java.sql.SQLOutput;
-import java.util.Scanner; //scanner is a class
+import java.util.Scanner; //scanner é uma classe
 
 public class Main {
     public static void main(String[] args){
 
-        /*
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
 
@@ -28,14 +29,14 @@ public class Main {
         else{
             System.out.println("You are NOT enrolled");
         }
-        */
+
+        /* ------------------------------------------------------------------------------------------------------------- */
 
         // ERROS COMUNS
 
-        /*
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
-        scanner.nextLine(); // COMMON ISSUE
+        scanner.nextLine(); // <<<< ERRO COMUM
 
         System.out.print("Enter your favorite color: ");
         String color = scanner.nextLine();
@@ -44,7 +45,6 @@ public class Main {
         System.out.println("You like the color " + color);
 
         scanner.close();
-        */
 
         /* ------------------------------------------------------------------------------------------------------------- */
 
@@ -65,6 +65,8 @@ public class Main {
         System.out.println("The area is: " + area);
 
         scanner.close();
+
+        /* ------------------------------------------------------------------------------------------------------------- */
 
     }
 }
