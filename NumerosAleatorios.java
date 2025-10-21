@@ -3,6 +3,8 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         Random random = new Random();
       
         /*
@@ -44,7 +46,8 @@ public class Main {
         double numero;
         numero = random.nextDouble();
         System.out.println(numero);
-        
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+        
     }
 }
