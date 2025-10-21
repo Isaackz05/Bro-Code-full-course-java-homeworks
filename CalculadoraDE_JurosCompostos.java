@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         // calculadora de juros compostos
 
         Scanner scanner = new Scanner(System.in);
@@ -32,6 +34,8 @@ public class main {
         // System.out.printf("O valor depois de %d anos é R$ %,f ", anos, valor );
 
         scanner.close();
+
+        /* ------------------------------------------------------------------------------------------------------------- */
 
     }
 }
