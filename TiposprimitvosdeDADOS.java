@@ -2,6 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+
         /* 🎲Tipos primitivos de dados🎲
          São tipos de valores armazenados diretamente na memória (stacks ou stackado)
          */
@@ -24,6 +26,8 @@ public class Main {
 
         System.out.println("My name is ");
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+        
         }
     }
 }
