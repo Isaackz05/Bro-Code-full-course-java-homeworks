@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        /* ------------------------------------------------------------------------------------------------------------- */
         
         // if statement = Aparece um bloco de código caso a condição seja verdadeira
 
@@ -20,6 +22,8 @@ public class Main {
         System.out.print("Você é um estudante? (true/false): ");
         isStudent = scanner.nextBoolean();
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+        
         GRUPO I1
 
         //vamos checar se a nossa variavel "nome" está vazia, neste caso ao em vez de usar " (name = '') " você usa " (name.isEmpty) " para caso o espaço esteja realmente vazio.
@@ -30,6 +34,8 @@ public class Main {
             System.out.println("Olá, " + name + "! 😊");
         }
 
+        /* ------------------------------------------------------------------------------------------------------------- */
+        
         GRUPO II2
         
         if(age >= 65){
@@ -62,6 +68,8 @@ public class Main {
         else: é um código padrão caso as condições acima não consigam ser atendidas.
         temos todos esses 3, mas vai depender das condições
         */
+
+        /* ------------------------------------------------------------------------------------------------------------- */
 
         GRUPO III3
 
