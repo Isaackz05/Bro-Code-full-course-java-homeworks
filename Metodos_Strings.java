@@ -97,6 +97,8 @@ public class Main {
             System.out.println("Olá " + nome);
         }
 
+        // NOTA: você pode usar " equals.IgnoreCase " para ignorar letras maiusculas ou minusculas e "validar" o processo
+
         /* ------------------------------------------------------------------------------------------------------------- */
     }
 }
