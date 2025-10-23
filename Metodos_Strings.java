@@ -60,6 +60,8 @@ public class Main {
         // apenas susbstitui letras por outras na qual você pede para deixar:
         nome = nome.replace("I", "E");
 
+        System.out.println(letter);
+
         /* ------------------------------------------------------------------------------------------------------------- */
 
         /*
@@ -84,7 +86,17 @@ public class Main {
         }
 
         /* ------------------------------------------------------------------------------------------------------------- */
-        
-        System.out.println(letter);
+
+        // para saber se existe dois Strings que são iguais
+
+        String nome = "senha";
+
+        if(nome.equals("senha")){
+            System.out.println("Seu nome não pode ser uma senha!");
+        } else {
+            System.out.println("Olá " + nome);
+        }
+
+        /* ------------------------------------------------------------------------------------------------------------- */
     }
 }
