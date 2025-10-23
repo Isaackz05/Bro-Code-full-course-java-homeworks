@@ -64,6 +64,16 @@ public class Main {
             System.out.println("OLá seu nome é " + nome);
         }
 
+        // outra declaração para saber se seu nome possui espaços
+        
+        if(nome.contains(" ")){
+            System.out.println("Seu nome contem espaços");
+        }
+        else {
+            System.out.println("Seu nome não contem espaços");
+        }
+
+
         
         System.out.println(letter);
     }
