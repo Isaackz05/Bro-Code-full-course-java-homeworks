@@ -52,6 +52,18 @@ public class Main {
 
         // para saber se o input está vazio
 
+        /*
+        Essa declaração pode ser usada para saber se o input está vazio
+        " nome.isEmpty(); "
+        */
+
+        if(nome.isEmpty()){
+            System.out.println("Seu nome é vazio");
+        }
+        else {
+            System.out.println("OLá seu nome é " + nome);
+        }
+
         
         System.out.println(letter);
     }
