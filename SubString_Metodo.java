@@ -13,5 +13,16 @@ public class Main {
 
         System.out.println(domain);
 
+        /* 
+            Esses dois métodos funcionam, porém, não são eficazes em determinar a posição 
+        correta dos caracteres dentro do email e o formato do email.
+
+        Por isso, nós usamos " index.Of(" (letra/caractere) ")) "
+        */
+
+        String email = "isaack04@gmail.com";
+        String usuario = email.substring(0, email.indexOf("@"));
+        String domain = email.substring(email.indexOf("@"));
+        
     }
 }
